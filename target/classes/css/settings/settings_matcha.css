@@ -1,0 +1,37 @@
+#navigationButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
+#navigationButton:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+}
+
+#settingsBox{
+    -fx-background-color: #8A9D6C;
+}
+
+#comboBox {
+    -fx-background-color: #588157;
+    -fx-opacity: 0.95;
+}
+
+.combo-box .list-cell{
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.combo-box .list-view .list-cell:focused {
+    -fx-background-color: #6ea16d;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell:hover{
+    -fx-background-color: #a2b87f;
+    -fx-text-fill: white;
+}

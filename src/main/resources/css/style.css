@@ -1,0 +1,31 @@
+#navigationButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
+#navigationButton:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+}
+
+#daysComboBox{
+    -fx-background-color: pink;
+}
+
+#daysComboBox .combo-box .list-cell{
+    -fx-text-fill: white;
+}
+
+#daysComboBox .combo-box .list-view .list-cell{
+    -fx-text-fill: white;
+}
+
+#daysComboBox .combo-box .list-view .list-cell:focused {
+    -fx-background-color: #5F9EA0;
+    -fx-text-fill: white;
+}
+
+#daysComboBox .combo-box .list-view .list-cell:hover{
+    -fx-background-color: #5F9EA0;
+    -fx-text-fill: white;
+}

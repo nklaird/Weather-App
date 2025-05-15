@@ -1,0 +1,71 @@
+#navigationButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
+#navigationButton:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Changes low line color to blue for Weekly Trends */
+
+#firstChart .chart-series-line.series0,
+#firstChart .chart-line-symbol.series0 {
+    -fx-stroke: blue;
+    -fx-background-color: blue;
+}
+
+/* Changes high line color to red for Weekly Trends */
+
+#firstChart .chart-series-line.series1,
+#firstChart .chart-line-symbol.series1 {
+    -fx-stroke: red;
+    -fx-background-color: red
+}
+
+/* Changes the chart background image to a wood background */
+
+#firstChart .chart-plot-background{
+    -fx-background-color: #e2ecfe;
+    -fx-background-image: url("../../images/wood_background.jpg");
+
+}
+
+/*  Changes vertical line stroke to a blue color */
+
+#firstChart .chart-vertical-grid-lines{
+    -fx-stroke: #0a2767
+}
+
+#firstChart .chart-horizontal-grid-lines{
+    -fx-stroke: transparent;
+}
+
+#comboBox {
+    -fx-background-color: #5a189a;
+    -fx-opacity: 0.95;
+}
+
+.combo-box .list-cell{
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.combo-box .list-view .list-cell:focused {
+    -fx-background-color: #7b2cbf;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell:hover{
+    -fx-background-color: #c77dff;
+    -fx-text-fill: white;
+}
+
+
+
+

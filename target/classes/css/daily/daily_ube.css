@@ -1,0 +1,128 @@
+#dailyBox{
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-background-color: #5a189a;
+    -fx-opacity: 0.95;
+}
+
+#dailyBox:hover{
+    -fx-background-color: #7b2cbf;
+}
+
+#dailyLabel{
+    -fx-font-family: Verdana;
+    -fx-font-size: 14;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+#dailyBottomBox{
+    -fx-border-width: 1;
+    -fx-border-color: #7b2cbf;
+    -fx-background-color: #c77dff;
+    -fx-opacity: 0.95;
+}
+
+#dailyBottomLabel{
+    -fx-text-fill: white;
+    -fx-font-family: Verdana;
+    -fx-font-size: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+#hourlyBoxOne{
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-background-color: #5a189a;
+    -fx-opacity: 0.95;
+}
+
+#hourlyBoxTwo{
+    -fx-border-width: 1;
+    -fx-border-color: #7b2cbf;
+    -fx-background-color: #c77dff;
+    -fx-opacity: 0.95;
+}
+
+#back{
+    -fx-text-fill: white;
+    -fx-background-color: #5a189a;
+    -fx-opacity: 0.95;
+}
+
+#back:hover{
+    -fx-background-color: #7b2cbf;
+}
+
+.text-area{
+    -fx-font-size: 13;
+    -fx-opacity: 0.9;
+    -fx-text-fill: white;
+    -fx-background-color: #9d4edd;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+#comboBox {
+    -fx-background-color: #5a189a;
+    -fx-opacity: 0.95;
+}
+
+.combo-box .list-cell{
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.combo-box .list-view .list-cell:focused {
+    -fx-background-color: #7b2cbf;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell:hover{
+    -fx-background-color: #c77dff;
+    -fx-text-fill: white;
+}
+
+#navigationButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
+#navigationButton:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+}
+
+#catView:hover{
+    -fx-opacity: 0.5;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+
+.scroll-pane{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color: #5a189a;
+}

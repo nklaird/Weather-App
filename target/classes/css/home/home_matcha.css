@@ -1,0 +1,115 @@
+#shelfTop{
+    -fx-background-image: url("../../images/shelf/shelf_top.jpeg");
+}
+
+#shelfTop:hover {
+    -fx-background-image: url("../../images/shelf/shelf_top_hover.jpeg");
+}
+
+#shelfMiddle{
+    -fx-background-image: url("../../images/shelf/shelf_middle.jpeg");
+}
+
+#shelfMiddle:hover {
+    -fx-background-image: url("../../images/shelf/shelf_middle_hover.jpeg");
+}
+
+#shelfBottom{
+    -fx-background-image: url("../../images/shelf/shelf_bottom.jpeg");
+}
+
+#shelfBottom:hover {
+    -fx-background-image: url("../../images/shelf/shelf_bottom_hover.jpeg");
+}
+
+#shelfScroll .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+
+#shelfScroll .scroll-bar:vertical .thumb{
+    -fx-background-color: #C19A6B;
+}
+
+#shelfScroll .scroll-bar:horizontal{
+    -fx-background-color: transparent;
+}
+
+#shelfScroll .scroll-bar:horizontal .thumb{
+    -fx-background-color: transparent;
+}
+
+#shelfScroll .scroll-pane > .corner {
+    -fx-background-color: transparent ;
+}
+
+#shelfScroll .scroll-bar:horizontal .increment-button .increment-arrow{
+    -fx-background-color: transparent;
+}
+
+#shelfScroll .scroll-bar:horizontal .decrement-button .decrement-arrow{
+    -fx-background-color: transparent;
+}
+
+#homeBox{
+    -fx-opacity: 0.8;
+    -fx-text-fill: white;
+    -fx-background-color: #8A9D6C;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+#alertsText:hover{
+    -fx-background-color: #a2b87f;
+}
+
+#pinguView:hover{
+    -fx-opacity: 0.5;
+}
+
+.text-area{
+    -fx-opacity: 0.8;
+    -fx-text-fill: white;
+    -fx-background-color: #8A9D6C;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+#locationButton{
+    -fx-text-fill: white;
+    -fx-font-size: 12;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: BOLD;
+    -fx-background-color: transparent;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #FCFFCB;
+    -fx-border-width: 2;
+}
+
+#locationButton:hover{
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+}
+
+#navigationButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
+#navigationButton:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+}
+
+#label {
+    -fx-text-fill: #FCFFCB;
+}
